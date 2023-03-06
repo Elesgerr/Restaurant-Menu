@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+header {
+   background-color: #C9843C;
+}
+header .box{
+   width: 20%;
+}
+header .box .logo {
+  width: 40%;
+}
+header .box .logo img{
+   background-repeat: no-repeat;
+   width: 100%;
+
+}
+@media(max-width: 500px) {
+
+   header .box,.logo{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+   }
+   header img{
+      text-align: center;
+      width: 10%;
+   }
+}
+main .bg {
+   width: 100%;
+   min-height: 100vh;
+   background-color: #34302F;
+}
+.menu-title {
+   padding: 20px;
+  
+}
+.bl {
+   border-bottom: 1px solid #e3e3e3;
+}
+
+.h5{
+   margin-right: 1rem;
+}
+h3{
+   color: #C9843C;
+}
+h5{
+   color: #527B74;
+}
+.menu-title ul {
+   list-style: none;
+   padding-left: 0;
+}
+.menu-title ul li{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: antiquewhite;
+   font-size: 13px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-title ul li h6{
+   font-size: 15px;
+}
